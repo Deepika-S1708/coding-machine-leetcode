@@ -8,6 +8,7 @@ class Solution:
                     row.append("W")
                 else:
                     row.append("B")
+            print(row)
             board.append(" ".join(row))
         return board
 
