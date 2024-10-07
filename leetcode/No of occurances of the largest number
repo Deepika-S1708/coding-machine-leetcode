@@ -1,0 +1,28 @@
+from typing import List
+class Solution:
+    def largest_ele(self, num:int,ele:List[int])->int:
+        le=ele[0]
+        for i in ele:
+            if i>le:
+                le=i
+        count=ele.count(le)
+        return count
+
+if __name__=="__main__":
+    s=Solution()
+    ele=[1,2,3,4]
+    num=4
+    res=s.largest_ele(num,ele)
+    print(res)
+
+
+
+
+
+
+                 
+
+            
+
+
+
